@@ -20,6 +20,8 @@ cd bento4
 wget -q $DOWNLOAD_URL
 unzip -qq $FILE.zip
 mv $FILE/bin .
+mv $FILE/utils .
+
 
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/mp4info.sh"
