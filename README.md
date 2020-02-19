@@ -1,7 +1,6 @@
 # bento4-heroku
 
-A Heroku buildpack for bento4 that always downloads the latest static build.
-Unlike other build packs, I never compile anything and remove this git.
+A Heroku buildpack for bento4 that uses latest binaries and has mp4hls working
 
 ## Usage
 
